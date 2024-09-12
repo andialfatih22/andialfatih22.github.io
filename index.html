@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Web Sederhana</title>
+    <title>My Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
         }
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 10px 0;
+            padding: 15px 0;
             text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
         }
         .container {
             width: 80%;
             margin: auto;
-            overflow: hidden;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #4CAF50;
@@ -40,22 +52,30 @@
 </head>
 <body>
     <header>
-        <h1>Selamat Datang di Situs Web Kami</h1>
+        <h1>Welcome to My Website</h1>
     </header>
 
-    <div class="container">
-        <h2>Judul Utama</h2>
-        <p>Ini adalah paragraf pertama di halaman web sederhana ini. Anda bisa menambahkan lebih banyak konten di sini.</p>
-        <p>Ini adalah paragraf kedua. Misalnya, Anda bisa menambahkan informasi tambahan atau deskripsi tentang topik tertentu.</p>
-        
-        <img src="https://via.placeholder.com/800x400" alt="Contoh Gambar">
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
 
-        <h2>Bagian Lainnya</h2>
-        <p>Di bagian ini, Anda bisa menambahkan lebih banyak konten atau elemen sesuai kebutuhan.</p>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>This is a paragraph about the website or company. You can provide information about your site here.</p>
+        
+        <h2>Our Services</h2>
+        <p>Details about the services offered by the company. You can elaborate on each service here.</p>
+        
+        <h2>Contact Us</h2>
+        <p>Contact information or a contact form can be added here.</p>
     </div>
 
     <footer>
-        <p>&copy; 2024 Situs Web Sederhana. Semua Hak Dilindungi.</p>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
